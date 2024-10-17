@@ -1,18 +1,19 @@
 {
-  "name": "create-foxglove-extension",
+  "name": "create-lichtblick-extension",
+  "displayName": "Create Lichtblick Extension",
+  "description": "Create and package Lichtblick extensions",
+  "publisher": "Lichtblick",
   "version": "1.0.3",
-  "publisher": "foxglove",
-  "description": "Create and package Foxglove extensions",
   "license": "MIT",
   "keywords": [
-    "foxglove",
+    "lichtblick",
     "robotics",
     "ros",
     "visualization"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/foxglove/create-foxglove-extension.git"
+    "url": "https://github.com/Lichtblick-Suite/create-lichtblick-extension.git"
   },
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -39,7 +40,7 @@
     "node": ">= 14"
   },
   "devDependencies": {
-    "@foxglove/eslint-plugin": "^0.21.0",
+    "@lichtblick/eslint-plugin": "^1.0.1",
     "@types/jest": "^29.4.0",
     "@types/mkdirp": "^2.0.0",
     "@types/ncp": "^2",
