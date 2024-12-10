@@ -16,7 +16,7 @@
     "pretest": "lichtblick-extension pretest"
   },
   "devDependencies": {
-    "@lichtblick/eslint-plugin":"1.0.1",
+    "@lichtblick/eslint-plugin":"1.0.2",
     "@lichtblick/suite": "1.8.0",
     "@foxglove/schemas": "1.6.4",
     "@types/react": "18.3.12",
